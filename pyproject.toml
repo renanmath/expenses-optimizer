@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "expenses-opt"
+version = "0.1.0"
+description = ""
+authors = ["renan <renanmath13@gmail.com>"]
+readme = "README.md"
+packages = [{include = "expenses_opt"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+pendulum = "^2.1.2"
+ortools = "^9.6.2534"
+pytest = "^7.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

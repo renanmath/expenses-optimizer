@@ -1,0 +1,138 @@
+{
+    "start_date": "11/06/2023",
+    "budget": {
+        "initial": 500,
+        "recorrent": 4000,
+        "recurrence": 30,
+        "last_recurrence": "05/06/2023",
+        "iterations": 2
+    },
+    "optimization_parameters":{
+        "priority_exponent": 2,
+        "deviation_weight": 0,
+        "max_time": 10000
+    },
+    "expenses": [
+        {
+            "description": "Item 01",
+            "due_date": "2023-09-30",
+            "priority": 3,
+            "mandatory": false,
+            "range": {
+                "minimum": 180.0,
+                "maximum": 300.0,
+                "target": 220.0
+            }
+        },
+        {
+            "description": "Item 02",
+            "due_date": "2023-09-30",
+            "priority": 3,
+            "mandatory": false,
+            "range": {
+                "minimum": 30.0,
+                "maximum": 100.0,
+                "target": 60.0
+            }
+        },
+        {
+            "description": "Item 03",
+            "due_date": "2023-07-31",
+            "priority": 3,
+            "mandatory": false,
+            "range": {
+                "minimum": 10.0,
+                "maximum": 80.0,
+                "target": 30.0
+            }
+        },
+        {
+            "description": "Item 04",
+            "due_date": "2023-07-31",
+            "priority": 2,
+            "mandatory": true,
+            "range": {
+                "minimum": 50.0,
+                "maximum": 120.0,
+                "target": 80.0
+            }
+        },
+        {
+            "description": "Item 05",
+            "due_date": "2023-09-30",
+            "priority": 2,
+            "mandatory": false,
+            "range": {
+                "minimum": 150.0,
+                "maximum": 270.0,
+                "target": 200.0
+            }
+        },
+        {
+            "description": "Item 06",
+            "due_date": "2023-07-31",
+            "priority": 1,
+            "mandatory": true,
+            "range": {
+                "minimum": 50.0,
+                "maximum": 250.0,
+                "target": 150.0
+            }
+        },
+        {
+            "description": "Item 07",
+            "due_date": "2023-10-31",
+            "priority": 3,
+            "mandatory": true,
+            "range": {
+                "minimum": 400.0,
+                "maximum": 800.0,
+                "target": 600.0
+            }
+        },
+        {
+            "description": "Item 08",
+            "due_date": "2023-07-31",
+            "priority": 2,
+            "mandatory": true,
+            "range": {
+                "minimum": 50.0,
+                "maximum": 150.0,
+                "target": 100.0
+            }
+        },
+        {
+            "description": "Item 09",
+            "due_date": "2023-06-30",
+            "priority": 1,
+            "mandatory": true,
+            "range": {
+                "minimum": 20.0,
+                "maximum": 120.0,
+                "target": 80.0
+            }
+        },
+        {
+            "description": "Item 10",
+            "due_date": "2023-07-31",
+            "priority": 1,
+            "mandatory": false,
+            "range": {
+                "minimum": 100.0,
+                "maximum": 300.0,
+                "target": 240.0
+            }
+        },
+        {
+            "description": "Item 11",
+            "due_date": "2023-08-31",
+            "priority": 2,
+            "mandatory": false,
+            "range": {
+                "minimum": 35.0,
+                "maximum": 120.0,
+                "target": 70.0
+            }
+        }
+    ]
+}
