@@ -19,7 +19,7 @@ def get_priority_from_string(s: str):
         return Priority.LOW
 
 
-def get_date_from_string(str_date: str, format: str = "DD/MM/YYYY"):
+def get_date_from_string(str_date: str, format: str = "YYYY-MM-DD"):
     try:
         return pendulum.from_format(str_date, format).date()
     except ValueError:

@@ -37,11 +37,11 @@ def test_build_budget_from_parameters():
         "initial": 500,
         "recorrent": 4000,
         "recurrence": 30,
-        "last_recurrence": "05/06/2023",
+        "last_recurrence": "2023-06-05",
         "iterations": 3,
     }
 
-    start_date = get_date_from_string("11/06/2023")
+    start_date = get_date_from_string("2023-06-11")
 
     budget = build_budget_from_parameters(my_params, start_date)
 
