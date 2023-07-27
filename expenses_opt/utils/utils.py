@@ -19,11 +19,19 @@ def get_priority_from_string(s: str):
         return Priority.LOW
 
 
-def get_date_from_string(str_date: str, format: str = "YYYY-MM-DD"):
-    try:
-        return pendulum.from_format(str_date, format).date()
-    except ValueError:
-        return None
+def get_date_from_string(str_date: str, format: str = None):
+    if format is None:
+        formats = ['YYYY-MM-DD', 'DD/MM/YYYY']
+    else:
+        formats = [format]
+
+    for fmt in formats:
+        try:
+            return pendulum.from_format(str_date, fmt).date()
+        except ValueError:
+            continue
+    
+    return None
 
 
 def get_min_price(my_string: str):
